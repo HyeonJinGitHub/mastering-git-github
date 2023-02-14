@@ -17,6 +17,8 @@ pts3 = np.array([[[100, 300], [200, 300], [100, 400]], [[200, 300], [300, 300], 
 cv2.fillPoly(img, pts3, COLOR, cv2.LINE_AA) # 곽 찬 다각형
 # 그릴 위치, 그릴 좌표들, 색상, 선 종류
 
+print('this is feature1')
+
 cv2.imshow('img', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
