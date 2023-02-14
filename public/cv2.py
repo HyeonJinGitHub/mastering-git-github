@@ -1,8 +1,6 @@
 import cv2
 import numpy as np
 
-print("test1 is good")
-
 img = np.zeros((480, 640, 3), dtype=np.uint8)
 
 COLOR = (0, 0, 255) # BGR : 빨간색
