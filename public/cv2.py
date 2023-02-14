@@ -20,3 +20,4 @@ cv2.fillPoly(img, pts3, COLOR, cv2.LINE_AA) # 곽 찬 다각형
 cv2.imshow('img', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+print('12345')
